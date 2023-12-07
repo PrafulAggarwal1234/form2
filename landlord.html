@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zuhaus</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="docstyle.css" />
+    <script src="https://unpkg.com/pdf-lib/dist/pdf-lib.js"></script>
+    
+    
+    
+    
+  </head>
+  <body>
+    <header class="header">
+      <img
+        src="assets/zuhuaslogowithoutzfinal.png"
+        
+        class="logo"
+      />
+
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li><a class="navbar-link" href="index.html">Home</a></li>
+          <li><a class="navbar-link" href="blog.html">Blogs</a></li>
+          <li><a class="navbar-link" href="#">Verification</a></li>
+     
+          <li><a class="button-29" href="#">Sign In</a></li>
+          <l1
+            ><a class="" href="#"
+              ><img src="assets/telegram-removebg-preview.png" width="65rem" /></a
+            ></l1>
+        </ul>
+      </nav>
+      
+
+      <div class="mobile-navbar-btn">
+        <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
+        <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>
+      </div>
+    </header>
+
+    <!-- ======================================== 
+          Our Main Hero Section Start  
+    ========================================  -->
+    
+    <div class="wrapper">
+        <div class="title">Landlord Confirmation Form
+        </div>
+        <form  data-netlify="true" id="form" >
+          <div class="form">
+            <h4 style="font-size: 15px">Housing provider certificate
+              according to Section 19 of the Federal Registration Act</h4>
+            <br/>
+            <h4 style="font-size: 15px">Information about the apartment</h4>
+            <br/>
+
+            <div class="inputfield">
+              <label>This is a confirmed: </label>
+              <input type="checkbox" class="" id="checkbox1" name="checkbox1">
+              <label for="checkbox1"> move in </label><br>
+                  <input type="checkbox" class="" id="checkbox2" name="checkbox2">
+              <label for="checkbox2"> move out</label><br>
+            </div>
+            <br/>
+
+            <div class="inputfield">
+              <label>Street and house number (with addition)</label>
+              <input type="text" class="input" id="house" name="house" 
+                 title="Enter only alphabets" required>
+            </div>
+            <div class="inputfield">
+                <label>Postal Code: </label>
+                <input type="text" class="input" id="postalcode" name="postalcode"  
+                  required>
+              </div>
+    
+              <div class="inputfield">
+                <label>Floor ,apartment number Apartment ID or description: </label>
+                <input type="text" class="input" id="floor" name="floor"  
+                required>
+              </div>
+              <div class="inputfield">
+                <label>Date of move in or move out: </label>
+                <input type="text" class="input" id="date" name="date"  
+                  required>
+              </div>
+            
+              <h4 style="font-size: 15px">The following people have moved in:
+               </h4>
+               <br/>
+                <table class="table-resp" style="display: flex;justify-content: center;">
+                  <tr>
+                    <th>Family name</th>
+                    <th>First name</th>
+                  </tr>
+                  <tr>
+                    <td>
+                <div class="inputfield">
+                    
+                    <input type="text" class="input" id="name1" name="name1" 
+                       title="Enter only alphabets">
+                  </div>
+                </td>
+                <td>
+          
+                  <div class="inputfield">
+                    
+                    <input type="text" class="input" id="name6" name="name6" 
+                       title="Enter only alphabets">
+                  </div>
+                </td>
+                </tr>
+                <tr>
+                  <td>
+                  <div class="inputfield">
+                  
+                    <input type="text" class="input" id="name2" name="name2" 
+                       title="Enter only alphabets">
+                  </div>
+                </td>
+                <td>
+          
+                  <div class="inputfield">
+                   
+                    <input type="text" class="input" id="name7" name="name7" 
+                       title="Enter only alphabets">
+                  </div>
+                </td>
+                </tr>
+                <tr>
+                  <td>
+                  <div class="inputfield">
+                   
+                    <input type="text" class="input" id="name3" name="name3" 
+                       title="Enter only alphabets">
+                  </div>
+                </td>
+                <td>
+          
+                  <div class="inputfield">
+                  
+                    <input type="text" class="input" id="name8" name="name8" 
+                       title="Enter only alphabets">
+                  </div>
+                </td>
+                </tr>
+                <tr>
+                  <td>
+                  <div class="inputfield">
+                   
+                    <input type="text" class="input" id="name4" name="name4" 
+                       title="Enter only alphabets">
+                  </div>
+                </td>
+                <td>
+          
+                  <div class="inputfield">
+                    
+                    <input type="text" class="input" id="name9" name="name9" 
+                       title="Enter only alphabets">
+                  </div>
+                </td>
+                </tr>
+                <tr>
+                  <td>
+                  <div class="inputfield">
+                  
+                    <input type="text" class="input" id="name5" name="name5" 
+                       title="Enter only alphabets">
+                  </div>
+                </td>
+              <td>
+          
+                  <div class="inputfield">
+                    
+                    <input type="text" class="input" id="name10" name="name10" 
+                       title="Enter only alphabets">
+                  </div>
+                </td>
+                </tr>
+                  
+                </table>
+                <div class="inputfield">
+                  <label>If more people need to be specified, please enter the last name and first name here
+                  </label>
+                  <input type="text" class="input" id="extraname" name="extraname"  
+                    >
+                </div>
+                
+                  
+                <h4 style="font-size: 15px">Name and address of the apartment provider:
+                </h4>
+                <br/>
+                <div class="inputfield">
+                  <label>Family name
+                  </label>
+                  <input type="text" class="input" id="name11" name="name11"  
+                    >
+                </div>
+                <div class="inputfield">
+                  <label>First name
+                  </label>
+                  <input type="text" class="input" id="name12" name="name12"  
+                    >
+                </div>
+                <div class="inputfield">
+                  <label>Street and house number
+                  </label>
+                  <input type="text" class="input" id="house2" name="house2"  
+                    >
+                </div>
+                <div class="inputfield">
+                  <label>Postal code
+                  </label>
+                  <input type="text" class="input" id="postalcode2" name="postalcode2"  
+                    >
+                </div>
+                <div class="inputfield">
+                  <label>Location
+                  </label>
+                  <input type="text" class="input" id="location" name="location"  
+                    >
+                </div>
+                <div class="inputfield">
+                  <label>If applicable, last name and first name of the person appointed by the property provider
+                  </label>
+                  <input type="text" class="input" id="extraname2" name="extraname2"  
+                    >
+                </div>
+
+                <div class="inputfield">
+                  <label>The apartment provider is </label>
+                  <input type="checkbox" class="" id="checkbox3" name="checkbox3">
+                  <label for="checkbox3">The apartment provider is also the owner of the apartment</label><br>
+                      <input type="checkbox" class="" id="checkbox4" name="checkbox4">
+                  <label for="checkbox4">apartment provider is not the owner of the apartment</label><br>
+                </div>
+                <br/>
+
+                <h4 style="font-size: 15px">Name and address of the owner:
+                </h4>
+                <br/>
+                <div class="inputfield">
+                  <label>Family name
+                  </label>
+                  <input type="text" class="input" id="name13" name="name13"  
+                    >
+                </div>
+                <div class="inputfield">
+                  <label>First name
+                  </label>
+                  <input type="text" class="input" id="name14" name="name14"  
+                    >
+                </div>
+                <div class="inputfield">
+                  <label>Street and house number
+                  </label>
+                  <input type="text" class="input" id="house3" name="house3"  
+                    >
+                </div>
+                <div class="inputfield">
+                  <label>Postal code
+                  </label>
+                  <input type="text" class="input" id="postalcode3" name="postalcode3"  
+                    >
+                </div>
+                <div class="inputfield">
+                  <label>Location
+                  </label>
+                  <input type="text" class="input" id="location2" name="location2"  
+                    >
+                </div>
+
+
+                <h4 style="font-size: 15px">With my signature I confirm that the information provided above corresponds to the facts. I am aware that it is forbidden to offer or make available a residential address to a third party for registration, even though they neither actually move into the apartment nor intend to do so. A violation of the ban constitutes an administrative offense such as issuing this confirmation without being authorized to do so as the landlord or his representative (S 54 in conjunction with S 19 BMG).
+                </h4>
+                <br/>
+                
+                
+                <div class="inputfield">
+                  <label>place and date
+                  </label>
+                  <input type="text" class="input" id="date2" name="date2"  
+                    >
+                </div>
+                <div class="inputfield">
+                  <label>Signature of the appartment provider or the
+                    person responsible
+                  </label>
+                  <input type="text" class="input" id="sign" name="sign"  
+                    >
+                </div>
+              
+            
+    
+            <div class="inputfield btns" id="btn">
+              <button  value="downloadenglish" type="button" class="btn1" id="btn1" onclick="downloadenglish()" >Submit English Form</button>
+              <p id="output1"></p>
+             <button  value="downloadgerman" type="button" class="btn2" id="btn2" onclick="downloadgerman()">Submit German Form</button>
+              <p id="output2"></p>
+            </div>
+    
+          </div>
+        </form>
+      </div>
+      <script>
+        async function downloadenglish() {
+    console.log("hello");
+
+    const templatePdfBytes = await fetch('WFinalEn.pdf').then((response) => response.arrayBuffer());
+    const pdfDoc = await PDFLib.PDFDocument.load(templatePdfBytes);
+    const form = pdfDoc.getForm();
+   
+    
+    //total 32fiels
+
+
+    //setting all the 14 names
+    form.getTextField('name1').setText(document.getElementById("name1").value);
+    form.getTextField('name2').setText(document.getElementById("name2").value);
+    form.getTextField('name3').setText(document.getElementById("name3").value);
+    form.getTextField('name4').setText(document.getElementById("name4").value);
+    form.getTextField('name5').setText(document.getElementById("name5").value);
+    form.getTextField('name6').setText(document.getElementById("name6").value);
+    form.getTextField('name7').setText(document.getElementById("name7").value);
+    form.getTextField('name8').setText(document.getElementById("name8").value);
+    form.getTextField('name9').setText(document.getElementById("name9").value);
+    form.getTextField('name10').setText(document.getElementById("name10").value);
+    form.getTextField('name11').setText(document.getElementById("name11").value);
+    form.getTextField('name12').setText(document.getElementById("name12").value);
+    form.getTextField('name13').setText(document.getElementById("name13").value);
+    form.getTextField('name14').setText(document.getElementById("name14").value);
+    form.getTextField('name14').setText(document.getElementById("name14").value);
+
+    //extraname
+    form.getTextField('extraname').setText(document.getElementById("extraname").value);
+    form.getTextField('extraname2').setText(document.getElementById("extraname2").value);
+    //house
+    form.getTextField('house').setText(document.getElementById("house").value);
+    form.getTextField('house2').setText(document.getElementById("house2").value);
+    form.getTextField('house3').setText(document.getElementById("house3").value);
+    form.getTextField('floor').setText(document.getElementById("floor").value);
+    //postal code
+    form.getTextField('postalcode').setText(document.getElementById("postalcode").value);
+    form.getTextField('postalcode2').setText(document.getElementById("postalcode2").value);
+    form.getTextField('postalcode3').setText(document.getElementById("postalcode3").value);
+    //date
+    form.getTextField('date').setText(document.getElementById("date").value);
+    form.getTextField('date2').setText(document.getElementById("date2").value);
+    //location
+    form.getTextField('location').setText(document.getElementById("location").value);
+    form.getTextField('location2').setText(document.getElementById("location2").value);
+    //sign
+    form.getTextField('sign').setText(document.getElementById("sign").value);
+
+    //checkboxes
+    if(document.getElementById("checkbox1").checked==true){
+      form.getCheckBox('checkbox1').check();
+    }
+    if(document.getElementById("checkbox2").checked==true){
+      console.log('checkbox2 marked')
+      form.getCheckBox('checkbox2').check();
+    }
+    if(document.getElementById("checkbox3").checked==true){
+      form.getCheckBox('checkbox3').check();
+    }
+    if(document.getElementById("checkbox4").checked==true){
+      form.getCheckBox('checkbox4').check();
+    }
+    
+   
+    //do for rest of fields
+    
+    const filledPdfBytes = await pdfDoc.save();
+
+  // Create a Blob containing the filled-in PDF data
+  const filledPdfBlob = new Blob([filledPdfBytes], { type: 'application/pdf' });
+
+  // Create a URL for the Blob
+  const filledPdfUrl = URL.createObjectURL(filledPdfBlob);
+
+  // Create a link element to trigger the download
+  const a = document.createElement('a');
+  a.href = filledPdfUrl;
+  a.download = 'filled_landlord_english_form.pdf'; // Set the desired file name
+  a.textContent = 'Download';
+  a.style.margin='1rem'
+  // Append the link element to the document body
+  const myNode=document.getElementById("output1");
+  if (myNode.lastElementChild) {
+    myNode.removeChild(myNode.lastElementChild);
+  }
+  document.getElementById("output1").appendChild(a);
+
+  }
+  async function downloadgerman() {
+    console.log("hello");
+    const templatePdfBytes = await fetch('WFinalDe.pdf').then((response) => response.arrayBuffer());
+    const pdfDoc = await PDFLib.PDFDocument.load(templatePdfBytes);
+    const form = pdfDoc.getForm();
+   
+    
+    //total 32fiels
+
+
+    //setting all the 14 names
+    form.getTextField('name1').setText(document.getElementById("name1").value);
+    form.getTextField('name2').setText(document.getElementById("name2").value);
+    form.getTextField('name3').setText(document.getElementById("name3").value);
+    form.getTextField('name4').setText(document.getElementById("name4").value);
+    form.getTextField('name5').setText(document.getElementById("name5").value);
+    form.getTextField('name6').setText(document.getElementById("name6").value);
+    form.getTextField('name7').setText(document.getElementById("name7").value);
+    form.getTextField('name8').setText(document.getElementById("name8").value);
+    form.getTextField('name9').setText(document.getElementById("name9").value);
+    form.getTextField('name10').setText(document.getElementById("name10").value);
+    form.getTextField('name11').setText(document.getElementById("name11").value);
+    form.getTextField('name12').setText(document.getElementById("name12").value);
+    form.getTextField('name13').setText(document.getElementById("name13").value);
+    form.getTextField('name14').setText(document.getElementById("name14").value);
+    form.getTextField('name14').setText(document.getElementById("name14").value);
+
+    //extraname
+    form.getTextField('extraname').setText(document.getElementById("extraname").value);
+    form.getTextField('extraname2').setText(document.getElementById("extraname2").value);
+    //house
+    form.getTextField('house').setText(document.getElementById("house").value);
+    form.getTextField('house2').setText(document.getElementById("house2").value);
+    form.getTextField('house3').setText(document.getElementById("house3").value);
+    form.getTextField('floor').setText(document.getElementById("floor").value);
+    //postal code
+    form.getTextField('postalcode').setText(document.getElementById("postalcode").value);
+    form.getTextField('postalcode2').setText(document.getElementById("postalcode2").value);
+    form.getTextField('postalcode3').setText(document.getElementById("postalcode3").value);
+    //date
+    form.getTextField('date').setText(document.getElementById("date").value);
+    form.getTextField('date2').setText(document.getElementById("date2").value);
+    //location
+    form.getTextField('location').setText(document.getElementById("location").value);
+    form.getTextField('location2').setText(document.getElementById("location2").value);
+    //sign
+    form.getTextField('sign').setText(document.getElementById("sign").value);
+
+    //checkboxes
+    if(document.getElementById("checkbox1").checked==true){
+      form.getCheckBox('checkbox1').check();
+    }
+    if(document.getElementById("checkbox2").checked==true){
+      console.log('checkbox2 marked')
+      form.getCheckBox('checkbox2').check();
+    }
+    if(document.getElementById("checkbox3").checked==true){
+      form.getCheckBox('checkbox3').check();
+    }
+    if(document.getElementById("checkbox4").checked==true){
+      form.getCheckBox('checkbox4').check();
+    }
+    
+    //do for rest of fields
+    
+    const filledPdfBytes = await pdfDoc.save();
+
+  // Create a Blob containing the filled-in PDF data
+  const filledPdfBlob = new Blob([filledPdfBytes], { type: 'application/pdf' });
+
+  // Create a URL for the Blob
+  const filledPdfUrl = URL.createObjectURL(filledPdfBlob);
+
+  // Create a link element to trigger the download
+  const a = document.createElement('a');
+  a.href = filledPdfUrl;
+  a.download = 'filled_landlord_german_form.pdf'; // Set the desired file name
+  a.textContent = 'Download';
+  a.style.margin='1rem'
+
+  // Append the link element to the document body
+  const myNode=document.getElementById("output2");
+  if (myNode.lastElementChild) {
+    myNode.removeChild(myNode.lastElementChild);
+  }
+  document.getElementById("output2").appendChild(a);
+
+  }
+      </script>
+
+
+
+
+
+    <!-- ======================================== 
+          Our JavaScript Section Start  
+    ========================================  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="index.js"></script>
+  </body>
+  <script src="https://unpkg.com/pdf-lib/dist/pdf-lib.js"></script>
+</html>

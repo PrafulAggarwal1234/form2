@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zuhaus</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="docstyle.css" />
+    <script src="https://unpkg.com/pdf-lib/dist/pdf-lib.js"></script>
+    
+    
+    
+    
+  </head>
+  <body>
+    <header class="header">
+      <img
+        src="assets/zuhuaslogowithoutzfinal.png"
+        
+        class="logo"
+      />
+
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li><a class="navbar-link" href="index.html">Home</a></li>
+          <li><a class="navbar-link" href="blog.html">Blogs</a></li>
+          <li><a class="navbar-link" href="#">Verification</a></li>
+          <li><a class="navbar-link" href="#">Get Documentsts</a></li>
+          <li><a class="button-29" href="#">Sign In</a></li>
+          <l1
+            ><a class="" href="#"
+              ><img src="assets/telegram-removebg-preview.png" width="65rem" /></a
+            ></l1>
+        </ul>
+      </nav>
+      
+
+      <div class="mobile-navbar-btn">
+        <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
+        <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>
+      </div>
+    </header>
+
+    <!-- ======================================== 
+          Our Main Hero Section Start  
+    ========================================  -->
+    
+    <div class="wrapper">
+        <div class="title">REGISTRATION FORM
+        </div>
+        <form  data-netlify="true" id="form" >
+          <div class="form">
+            <h2>Previous residence</h2>
+            <br/>
+            <div class="inputfield">
+              <label>The last previous apartment in Germany was one</label>
+              <input type="checkbox" class="" id="checkbox1" name="checkbox1">
+              <label for="checkbox1"> sole apartment </label><br>
+                  <input type="checkbox" class="" id="checkbox2" name="checkbox2">
+              <label for="checkbox2"> main residence</label><br>
+                  <input type="checkbox" class="" id="checkbox3" name="checkbox3">
+              <label for="checkbox3"> secondary apartment</label><br>
+            </div>
+            <div class="inputfield">
+              <label>Day of departure</label>
+              <input type="text" class="input" id="dayofdeparture" name="dayofdeparture" 
+                   title="Enter only alphabets" required>
+            </div>
+            <div class="inputfield">
+              <label>when moving from abroad, the state</label>
+              <input type="text" class="input" id="thestate" name="thestate" 
+                   title="Enter only alphabets" required>
+            </div>
+            <div class="inputfield">
+              <label>Street and house number</label>
+              <input type="text" class="input" id="house" name="house" 
+                   title="Enter only alphabets" required>
+            </div>
+            <div class="inputfield">
+              <label>Postal code</label>
+              <input type="text" class="input" id="postalcode" name="postalcode" 
+                   title="Enter only alphabets" required>
+            </div>
+            <div class="inputfield">
+              <label>Location</label>
+              <input type="text" class="input" id="location" name="location" 
+                   title="Enter only alphabets" required>
+            </div>
+            
+            <div class="inputfield">
+              <label>Circle</label>
+              <input type="text" class="input" id="circle" name="circle" 
+                   title="Enter only alphabets" required>
+            </div>
+            
+            <div class="inputfield">
+              <label>Federal State
+                </label>
+              <input type="text" class="input" id="federalstate" name="federalstate" 
+                   title="Enter only alphabets" required>
+            </div>
+
+            <div class="inputfield">
+              <label>Circle</label>
+              <input type="checkbox" class="" id="checkbox4" name="checkbox4" >
+              <label for="checkbox4"> no </label><br>
+                  <input type="checkbox" class="" id="checkbox5" name="checkbox5">
+              <label for="checkbox5"> yes, and as</label><br>
+                  <input type="checkbox" class="" id="checkbox6" name="checkbox6">
+              <label for="checkbox6"> Main residence</label><br>
+                  <input type="checkbox" class="" id="checkbox7" name="checkbox7">
+              <label for="checkbox7"> secondary apartment</label><br>
+            </div>
+    
+            <h2>New flat</h2>
+            <br/>
+            <div class="inputfield">
+              <label>The new apartment is one</label>
+              <input type="checkbox" class="" id="checkbox8" name="checkbox8" >
+              <label for="checkbox8"> sole apartment </label><br>
+                  <input type="checkbox" class="" id="checkbox9" name="checkbox9">
+              <label for="checkbox9"> main residence</label><br>
+                  <input type="checkbox" class="" id="checkbox10" name="checkbox10">
+              <label for="checkbox10"> secondary apartment</label><br>
+            </div>
+
+            <div class="inputfield">
+              <label>Move-in day</label>
+              <input type="text" class="input" id="moveinday" name="moveinday" 
+                   title="Enter only alphabets" required>
+            </div>
+
+            <div class="inputfield">
+              <label>Street and house number</label>
+              <input type="text" class="input" id="house2" name="house2" 
+                   title="Enter only alphabets" required>
+            </div>
+            <div class="inputfield">
+              <label>Postal code</label>
+              <input type="text" class="input" id="postalcode2" name="postalcode2" 
+                   title="Enter only alphabets" required>
+            </div>
+            <div class="inputfield">
+              <label>Location</label>
+              <input type="text" class="input" id="location2" name="location2" 
+                   title="Enter only alphabets" required>
+            </div>
+            
+            <div class="inputfield">
+              <label>district</label>
+              <input type="text" class="input" id="district" name="district" 
+                   title="Enter only alphabets" required>
+            </div>
+            
+            <div class="inputfield">
+              <label>Housing provider</label>
+              <input type="text" class="input" id="housingprovider" name="housingprovider" 
+                   title="Enter only alphabets" required>
+            </div>
+            <div class="inputfield">
+              <label>Street and house number</label>
+              <input type="text" class="input" id="house3" name="house3" 
+                   title="Enter only alphabets" required>
+            </div>
+            <div class="inputfield">
+              <label>Postal code</label>
+              <input type="text" class="input" id="postalcode3" name="postalcode3" 
+                   title="Enter only alphabets" required>
+            </div>
+            <div class="inputfield">
+              <label>Location</label>
+              <input type="text" class="input" id="location3" name="location3" 
+                   title="Enter only alphabets" required>
+            </div>
+
+            <h2>first person required to report</h2>
+            <br/>
+            <div class="inputfield">
+              <label>Family name or passport name</label>
+              <input type="text" class="input" id="name1" name="name1" 
+                   title="Enter only alphabets" required>
+            </div>
+            <div class="inputfield">
+              <label>Birth Name</label>
+              <input type="text" class="input" id="name2" name="name2" 
+                   title="Enter only alphabets" required>
+            </div>
+            <div class="inputfield">
+              <label>Nickname</label>
+              <input type="text" class="input" id="name3" name="name3" 
+                   title="Enter only alphabets" required>
+            </div>
+            <div class="inputfield">
+              <label>Other Names</label>
+              <input type="text" class="input" id="name4" name="name4" 
+                   title="Enter only alphabets" required>
+            </div>
+            <div class="inputfield">
+              <label>Artist or religious name</label>
+              <input type="text" class="input" id="name5" name="name5" 
+                   title="Enter only alphabets" required>
+            </div>
+            <div class="inputfield">
+              <label>Place of birth</label>
+              <input type="text" class="input" id="birthplace" name="birthplace" 
+                   title="Enter only alphabets" required>
+            </div>
+            <div class="inputfield">
+              <label>country of birth</label>
+              <input type="text" class="input" id="birthcountry" name="birthcountry" 
+                   title="Enter only alphabets" required>
+            </div>
+            <div class="inputfield">
+              <label>birth date</label>
+              <input type="text" class="input" id="birthdate" name="birthdate" 
+                   title="Enter only alphabets" required>
+            </div>
+            <div class="inputfield">
+              <label>Gender</label>
+              <input type="text" class="input" id="gender" name="gender" 
+                   title="Enter only alphabets" required>
+            </div>
+            <div class="inputfield">
+              <label>Nationalities</label>
+              <input type="text" class="input" id="nationalities" name="nationalities" 
+                   title="Enter only alphabets" required>
+            </div>
+            <div class="inputfield">
+              <label>Marital status</label>
+              <input type="text" class="input" id="marital" name="marital" 
+                   title="Enter only alphabets" required>
+            </div>
+            <div class="inputfield">
+              <label>religious society</label>
+              <input type="text" class="input" id="religious" name="religious" 
+                   title="Enter only alphabets" required>
+            </div>
+            
+            <h3>Documents</h3>
+            <br/>
+            <div class="inputfield">
+              <label>Art</label>
+              <input type="text" class="input" id="art" name="art" 
+                   title="Enter only alphabets" required>
+            </div>
+            <div class="inputfield">
+              <label>seriel number</label>
+              <input type="text" class="input" id="serial" name="serial" 
+                   title="Enter only alphabets" required>
+            </div>
+            <div class="inputfield">
+              <label>Issuing authority</label>
+              <input type="text" class="input" id="authority" name="authority" 
+                   title="Enter only alphabets" required>
+            </div>
+            <div class="inputfield">
+              <label>Date</label>
+              <input type="text" class="input" id="date" name="date" 
+                   title="Enter only alphabets" required>
+            </div>
+            <div class="inputfield">
+              <label>Date of Expiry</label>
+              <input type="text" class="input" id="expiry" name="expiry" 
+                   title="Enter only alphabets" required>
+            </div>
+            <h2>second person required to report</h2>
+            <br/>
+            <div class="inputfield">
+              <label>The second person required to report is</label>
+              <input type="text" class="input" id="secondis" name="secondis" 
+                   title="Enter only alphabets" required>
+            </div>
+            <div class="inputfield">
+              <label>Family name or passport name</label>
+              <input type="text" class="input" id="name6" name="name6" 
+                   title="Enter only alphabets" required>
+            </div>
+            <div class="inputfield">
+              <label>Birth Name</label>
+              <input type="text" class="input" id="name7" name="name7"
+                   title="Enter only alphabets" required>
+            </div>
+            <div class="inputfield">
+              <label>Nickname</label>
+              <input type="text" class="input" id="name8" name="name8" 
+                   title="Enter only alphabets" required>
+            </div>
+            <div class="inputfield">
+              <label>Other Names</label>
+              <input type="text" class="input" id="name9" name="name9" 
+                   title="Enter only alphabets" required>
+            </div>
+            <div class="inputfield">
+              <label>Artist or religious name</label>
+              <input type="text" class="input" id="name10" name="name10" 
+                   title="Enter only alphabets" required>
+            </div>
+            <div class="inputfield">
+              <label>Place of birth</label>
+              <input type="text" class="input" id="birthplace2" name="birthplace2" 
+                   title="Enter only alphabets" required>
+            </div>
+            <div class="inputfield">
+              <label>country of birth</label>
+              <input type="text" class="input" id="birthcountry2" name="birthcountry2" 
+                   title="Enter only alphabets" required>
+            </div>
+            <div class="inputfield">
+              <label>birth date</label>
+              <input type="text" class="input" id="birthdate2" name="birthdate2" 
+                   title="Enter only alphabets" required>
+            </div>
+            <div class="inputfield">
+              <label>Gender</label>
+              <input type="text" class="input" id="gender2" name="gender2" 
+                   title="Enter only alphabets" required>
+            </div>
+            <div class="inputfield">
+              <label>Nationalities</label>
+              <input type="text" class="input" id="nationalities2" name="nationalities2" 
+                   title="Enter only alphabets" required>
+            </div>
+            <div class="inputfield">
+              <label>Marital status</label>
+              <input type="text" class="input" id="marital2" name="marital2" 
+                   title="Enter only alphabets" required>
+            </div>
+            <div class="inputfield">
+              <label>religious society</label>
+              <input type="text" class="input" id="religious2" name="religious2" 
+                   title="Enter only alphabets" required>
+            </div>
+            
+            <h3>Documents</h3>
+            <br/>
+            <div class="inputfield">
+              <label>Art</label>
+              <input type="text" class="input" id="art2" name="art2" 
+                   title="Enter only alphabets" required>
+            </div>
+            <div class="inputfield">
+              <label>seriel number</label>
+              <input type="text" class="input" id="serial2" name="serial2" 
+                   title="Enter only alphabets" required>
+            </div>
+            <div class="inputfield">
+              <label>Issuing authority</label>
+              <input type="text" class="input" id="authority2" name="authority2" 
+                   title="Enter only alphabets" required>
+            </div>
+            <div class="inputfield">
+              <label>Date</label>
+              <input type="text" class="input" id="date2" name="date2" 
+                   title="Enter only alphabets" required>
+            </div>
+            <div class="inputfield">
+              <label>Date of Expiry</label>
+              <input type="text" class="input" id="expiry2" name="expiry2" 
+                   title="Enter only alphabets" required>
+            </div>
+            <h2>If more than two people are registering, please fill out additional registration forms.</h2>
+
+            <div class="inputfield">
+              <label>Do the people listed on page 2 have other apartments in Germany?</label>
+              <input type="checkbox" class="" id="checkbox11" name="checkbox11" >
+              <label for="checkbox11"> no </label><br>
+                  <input type="checkbox" class="" id="checkbox12" name="checkbox12">
+              <label for="checkbox12">yes</label><br>
+            </div>
+            <h3>if yes, see supplement <a href="https://formular-server.de/Koeln_FS/findform?shortname=34-F21_BeiblAnmeld&formtecid=3&areashortname=koeln_html" target="_blank">Link to the suplement</a></h3>
+            <br/>
+            <h2>Information about marriage or civil partnership</h2>
+            <br/>
+            <div class="inputfield">
+              <label>Date</label>
+              <input type="text" class="input" id="date3" name="date3" 
+                   title="Enter only alphabets" required>
+            </div>
+            <div class="inputfield">
+              <label>File number or registration number</label>
+              <input type="text" class="input" id="filenumber" name="filenumber" 
+                   title="Enter only alphabets" required>
+            </div>
+            <div class="inputfield">
+              <label>Location</label>
+              <input type="text" class="input" id="location4" name="location4" 
+                   title="Enter only alphabets" required>
+            </div>
+            <div class="inputfield">
+              <label>country</label>
+              <input type="text" class="input" id="country" name="country" 
+                   title="Enter only alphabets" required>
+            </div>
+            <a href="https://www.stadt-koeln.de/artikel/71535/index.html?euid=305" target="_blank">Link to privacy policy</a>
+            <br/>
+            <br/>
+            <table>
+              <tr>
+                  <th>Date</th>
+                  <th>Signature of the person required to report or of a person with authority to provide care</th>
+                  
+              </tr>
+              <tr>
+                  <td>
+          <div class="inputfield">
+              <input type="text" class="input" id="date4" name="date4" 
+                 title="Enter only alphabets" required>
+            </div>
+          </td>
+          <td>
+            <div class="inputfield">
+              <input type="text" class="input" id="sig1" name="sig1" 
+                 title="Enter only alphabets" required>
+            </div>
+          </td>
+          </tr>
+          </table>
+          <br/>
+
+            <div class="inputfield btns" id="btn">
+              <button  value="downloadenglish" type="button" class="btn1" id="btn1" onclick="downloadenglish()" >Submit English Form</button>
+              <p id="output1"></p>
+             <button  value="downloadgerman" type="button" class="btn2" id="btn2" onclick="downloadgerman()">Submit German Form</button>
+              <p id="output2"></p>
+            </div>
+    
+          </div>
+        </form>
+      </div>
+<script>
+        
+        
+  async function downloadenglish() {
+
+    console.log("hello");
+   
+
+    
+    console.log('here')
+    const templatePdfBytes = await fetch('AnmeldungCologneEn.pdf').then((response) => response.arrayBuffer());
+    const pdfDoc = await PDFLib.PDFDocument.load(templatePdfBytes);
+    
+    console.log("pdf: ",pdfDoc)
+    const form = pdfDoc.getForm();
+    let fieldNames=form.getFields();
+    console.log('first: ',fieldNames);
+    console.log('length: ',fieldNames.length)
+ 
+    fieldNames=fieldNames.map((f)=>f.getName());
+    console.log(fieldNames);
+  //   console.log('length: ',fieldNames.length);
+  //   fieldNames.forEach(field => {
+  //     console.log('what!')
+  //   const type = field.constructor.name
+  //   const name = field.getName()
+  //   console.log(`${type}: ${name}`)
+  // })
+  
+
+  //fiillin up the form
+
+    form.getTextField('dayofdeparture').setText(document.getElementById("dayofdeparture").value)
+    form.getTextField('thestate').setText(document.getElementById("thestate").value)
+    form.getTextField('house').setText(document.getElementById("house").value)
+    form.getTextField('postalcode').setText(document.getElementById("postalcode").value)
+    form.getTextField('location').setText(document.getElementById("location").value)
+    form.getTextField('circle').setText(document.getElementById("circle").value)
+    form.getTextField('federalstate').setText(document.getElementById("federalstate").value)
+    form.getTextField('moveinday').setText(document.getElementById("moveinday").value)
+    form.getTextField('house2').setText(document.getElementById("house2").value)
+    form.getTextField('postalcode2').setText(document.getElementById("postalcode2").value)
+    form.getTextField('location2').setText(document.getElementById("location2").value)
+    form.getTextField('district').setText(document.getElementById("district").value)
+    form.getTextField('housingprovider').setText(document.getElementById("housingprovider").value)
+    form.getTextField('house3').setText(document.getElementById("house3").value)
+    form.getTextField('postalcode3').setText(document.getElementById("postalcode3").value)
+    form.getTextField('location3').setText(document.getElementById("location3").value)
+    
+    //page 2
+    form.getTextField('name1').setText(document.getElementById("name1").value)
+    form.getTextField('name2').setText(document.getElementById("name2").value)
+    form.getTextField('name3').setText(document.getElementById("name3").value)
+    form.getTextField('name4').setText(document.getElementById("name4").value)
+    form.getTextField('name5').setText(document.getElementById("name5").value)
+    form.getTextField('birthplace').setText(document.getElementById("birthplace").value)
+    form.getTextField('birthcountry').setText(document.getElementById("birthcountry").value)
+    form.getTextField('birthdate').setText(document.getElementById("birthdate").value)
+    form.getTextField('gender').setText(document.getElementById("gender").value)
+    form.getTextField('nationalities').setText(document.getElementById("nationalities").value)
+    form.getTextField('marital').setText(document.getElementById("marital").value)
+    form.getTextField('religious').setText(document.getElementById("religious").value)
+    form.getTextField('art').setText(document.getElementById("art").value)
+    form.getTextField('serial').setText(document.getElementById("serial").value)
+    form.getTextField('authority').setText(document.getElementById("authority").value)
+    form.getTextField('date').setText(document.getElementById("date").value)
+    form.getTextField('expiry').setText(document.getElementById("expiry").value)
+
+    form.getTextField('secondis').setText(document.getElementById("secondis").value)
+    form.getTextField('name6').setText(document.getElementById("name6").value)
+    form.getTextField('name7').setText(document.getElementById("name7").value)
+    form.getTextField('name8').setText(document.getElementById("name8").value)
+    form.getTextField('name9').setText(document.getElementById("name9").value)
+    form.getTextField('name10').setText(document.getElementById("name10").value)
+    form.getTextField('birthplace2').setText(document.getElementById("birthplace2").value)
+    form.getTextField('birthcountry2').setText(document.getElementById("birthcountry2").value)
+    form.getTextField('birthdate2').setText(document.getElementById("birthdate2").value)
+    form.getTextField('gender2').setText(document.getElementById("gender2").value)
+    form.getTextField('nationalities2').setText(document.getElementById("nationalities2").value)
+    form.getTextField('marital2').setText(document.getElementById("marital2").value)
+    form.getTextField('religious2').setText(document.getElementById("religious2").value)
+    form.getTextField('art2').setText(document.getElementById("art").value)
+    form.getTextField('serial2').setText(document.getElementById("serial2").value)
+    form.getTextField('authority2').setText(document.getElementById("authority2").value)
+    form.getTextField('date2').setText(document.getElementById("date2").value)
+    form.getTextField('expiry2').setText(document.getElementById("expiry2").value)
+    
+    //Page 3
+    form.getTextField('date3').setText(document.getElementById("date3").value)
+    form.getTextField('filenumber').setText(document.getElementById("filenumber").value)
+    form.getTextField('location4').setText(document.getElementById("location4").value)
+    form.getTextField('country').setText(document.getElementById("country").value)
+    form.getTextField('date4').setText(document.getElementById("date4").value)
+    form.getTextField('sig1').setText(document.getElementById("sig1").value)
+
+    //all checkboxes of page 1 to 3
+    console.log(document.getElementById("checkbox1").value);
+    console.log(document.getElementById("checkbox2").value);
+    if(document.getElementById("checkbox1").checked==true){
+      console.log('true');
+      form.getCheckBox('checkbox1').check();
+    }
+    if(document.getElementById("checkbox2").checked==true){
+      console.log('checkbox2 marked')
+      form.getCheckBox('checkbox2').check();
+    }
+    if(document.getElementById("checkbox3").checked==true){
+      form.getCheckBox('checkbox3').check();
+    }
+    if(document.getElementById("checkbox4").checked==true){
+      form.getCheckBox('checkbox4').check();
+    }
+    if(document.getElementById("checkbox5").checked==true){
+      form.getCheckBox('checkbox5').check();
+    }
+    if(document.getElementById("checkbox6").checked==true){
+      form.getCheckBox('checkbox6').check();
+    }
+    if(document.getElementById("checkbox8").checked==true){
+      form.getCheckBox('checkbox8').check();
+    }
+    if(document.getElementById("checkbox9").checked==true){
+      form.getCheckBox('checkbox9').check();
+    }
+    if(document.getElementById("checkbox10").checked==true){
+      form.getCheckBox('checkbox10').check();
+    }
+    if(document.getElementById("checkbox11").checked==true){
+      form.getCheckBox('checkbox11').check();
+    }
+    if(document.getElementById("checkbox12").checked==true){
+      form.getCheckBox('checkbox12').check();
+    }
+
+
+
+    
+
+
+
+
+
+    
+
+    //do for rest of fields
+    
+    const filledPdfBytes = await pdfDoc.save();
+
+  // Create a Blob containing the filled-in PDF data
+  const filledPdfBlob = new Blob([filledPdfBytes], { type: 'application/pdf' });
+
+  // Create a URL for the Blob
+  const filledPdfUrl = URL.createObjectURL(filledPdfBlob);
+
+  // Create a link element to trigger the download
+  const a = document.createElement('a');
+  a.href = filledPdfUrl;
+  a.download = 'filled_registration_form.pdf'; // Set the desired file name
+  a.textContent = 'Download';
+  a.style.margin='1rem'
+  // Append the link element to the document body
+  const myNode=document.getElementById("output1");
+  if (myNode.lastElementChild) {
+    myNode.removeChild(myNode.lastElementChild);
+  }
+  document.getElementById("output1").appendChild(a);
+
+  }
+
+
+  async function downloadgerman() {
+    console.log("hello");
+    
+    console.log("hello");
+   
+
+    
+    console.log('here')
+    const templatePdfBytes = await fetch('AnmeldungCologneDe.pdf').then((response) => response.arrayBuffer());
+    const pdfDoc = await PDFLib.PDFDocument.load(templatePdfBytes);
+    
+    console.log("pdf: ",pdfDoc)
+    const form = pdfDoc.getForm();
+    let fieldNames=form.getFields();
+    console.log('first: ',fieldNames);
+
+  //fiillin up the form
+
+    form.getTextField('dayofdeparture').setText(document.getElementById("dayofdeparture").value)
+    form.getTextField('thestate').setText(document.getElementById("thestate").value)
+    form.getTextField('house').setText(document.getElementById("house").value)
+    form.getTextField('postalcode').setText(document.getElementById("postalcode").value)
+    form.getTextField('location').setText(document.getElementById("location").value)
+    form.getTextField('circle').setText(document.getElementById("circle").value)
+    form.getTextField('federalstate').setText(document.getElementById("federalstate").value)
+    form.getTextField('moveinday').setText(document.getElementById("moveinday").value)
+    form.getTextField('house2').setText(document.getElementById("house2").value)
+    form.getTextField('postalcode2').setText(document.getElementById("postalcode2").value)
+    form.getTextField('location2').setText(document.getElementById("location2").value)
+    form.getTextField('district').setText(document.getElementById("district").value)
+    form.getTextField('housingprovider').setText(document.getElementById("housingprovider").value)
+    form.getTextField('house3').setText(document.getElementById("house3").value)
+    form.getTextField('postalcode3').setText(document.getElementById("postalcode3").value)
+    form.getTextField('location3').setText(document.getElementById("location3").value)
+    
+    //page 2
+    form.getTextField('name1').setText(document.getElementById("name1").value)
+    form.getTextField('name2').setText(document.getElementById("name2").value)
+    form.getTextField('name3').setText(document.getElementById("name3").value)
+    form.getTextField('name4').setText(document.getElementById("name4").value)
+    form.getTextField('name5').setText(document.getElementById("name5").value)
+    form.getTextField('birthplace').setText(document.getElementById("birthplace").value)
+    form.getTextField('birthcountry').setText(document.getElementById("birthcountry").value)
+    form.getTextField('birthdate').setText(document.getElementById("birthdate").value)
+    form.getTextField('gender').setText(document.getElementById("gender").value)
+    form.getTextField('nationalities').setText(document.getElementById("nationalities").value)
+    form.getTextField('marital').setText(document.getElementById("marital").value)
+    form.getTextField('religious').setText(document.getElementById("religious").value)
+    form.getTextField('art').setText(document.getElementById("art").value)
+    form.getTextField('serial').setText(document.getElementById("serial").value)
+    form.getTextField('authority').setText(document.getElementById("authority").value)
+    form.getTextField('date').setText(document.getElementById("date").value)
+    form.getTextField('expiry').setText(document.getElementById("expiry").value)
+
+    form.getTextField('secondis').setText(document.getElementById("secondis").value)
+    form.getTextField('name6').setText(document.getElementById("name6").value)
+    form.getTextField('name7').setText(document.getElementById("name7").value)
+    form.getTextField('name8').setText(document.getElementById("name8").value)
+    form.getTextField('name9').setText(document.getElementById("name9").value)
+    form.getTextField('name10').setText(document.getElementById("name10").value)
+    form.getTextField('birthplace2').setText(document.getElementById("birthplace2").value)
+    form.getTextField('birthcountry2').setText(document.getElementById("birthcountry2").value)
+    form.getTextField('birthdate2').setText(document.getElementById("birthdate2").value)
+    form.getTextField('gender2').setText(document.getElementById("gender2").value)
+    form.getTextField('nationalities2').setText(document.getElementById("nationalities2").value)
+    form.getTextField('marital2').setText(document.getElementById("marital2").value)
+    form.getTextField('religious2').setText(document.getElementById("religious2").value)
+    form.getTextField('art2').setText(document.getElementById("art").value)
+    form.getTextField('serial2').setText(document.getElementById("serial2").value)
+    form.getTextField('authority2').setText(document.getElementById("authority2").value)
+    form.getTextField('date2').setText(document.getElementById("date2").value)
+    form.getTextField('expiry2').setText(document.getElementById("expiry2").value)
+    
+    //Page 3
+    form.getTextField('date3').setText(document.getElementById("date3").value)
+    form.getTextField('filenumber').setText(document.getElementById("filenumber").value)
+    form.getTextField('location4').setText(document.getElementById("location4").value)
+    form.getTextField('country').setText(document.getElementById("country").value)
+    form.getTextField('date4').setText(document.getElementById("date4").value)
+    form.getTextField('sig1').setText(document.getElementById("sig1").value)
+
+    //all checkboxes of page 1 to 3
+    if(document.getElementById("checkbox1").checked==true){
+      form.getCheckBox('checkbox1').check();
+    }
+    if(document.getElementById("checkbox2").checked==true){
+      form.getCheckBox('checkbox2').check();
+    }
+    if(document.getElementById("checkbox3").checked==true){
+      form.getCheckBox('checkbox3').check();
+    }
+    if(document.getElementById("checkbox4").checked==true){
+      form.getCheckBox('checkbox4').check();
+    }
+    if(document.getElementById("checkbox5").checked==true){
+      form.getCheckBox('checkbox5').check();
+    }
+    if(document.getElementById("checkbox6").checked==true){
+      form.getCheckBox('checkbox6').check();
+    }
+    if(document.getElementById("checkbox8").checked==true){
+      form.getCheckBox('checkbox8').check();
+    }
+    if(document.getElementById("checkbox9").checked==true){
+      form.getCheckBox('checkbox9').check();
+    }
+    if(document.getElementById("checkbox10").checked==true){
+      form.getCheckBox('checkbox10').check();
+    }
+    if(document.getElementById("checkbox11").checked==true){
+      form.getCheckBox('checkbox11').check();
+    }
+    if(document.getElementById("checkbox12").checked==true){
+      form.getCheckBox('checkbox12').check();
+    }
+ 
+    
+
+
+    //do for rest of fields
+    
+    const filledPdfBytes = await pdfDoc.save();
+
+  // Create a Blob containing the filled-in PDF data
+  const filledPdfBlob = new Blob([filledPdfBytes], { type: 'application/pdf' });
+
+  // Create a URL for the Blob
+  const filledPdfUrl = URL.createObjectURL(filledPdfBlob);
+
+  // Create a link element to trigger the download
+  const a = document.createElement('a');
+  a.href = filledPdfUrl;
+  a.download = 'filled_registration_form.pdf'; // Set the desired file name
+  a.textContent = 'Download';
+  a.style.margin='1rem'
+
+  // Append the link element to the document body
+  const myNode=document.getElementById("output2");
+  if (myNode.lastElementChild) {
+    myNode.removeChild(myNode.lastElementChild);
+  }
+  document.getElementById("output2").appendChild(a);
+
+  }
+      </script>
+
+
+
+
+
+    <!-- ======================================== 
+          Our JavaScript Section Start  
+    ========================================  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="index.js"></script>
+  </body>
+  <script src="https://unpkg.com/pdf-lib/dist/pdf-lib.js"></script>
+</html>
